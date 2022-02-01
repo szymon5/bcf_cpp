@@ -1,0 +1,39 @@
+﻿  test.cpp
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\Source.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(7,26): error C2878: 'filesystem': a namespace or class of this name does not exist
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(24,13): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(32,3): error C2653: 'fs': is not a class or namespace name
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(32,7): error C2065: 'path': undeclared identifier
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(32,12): error C2146: syntax error: missing ';' before identifier 'p'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(32,12): error C2065: 'p': undeclared identifier
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(33,7): error C2653: 'fs': is not a class or namespace name
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(33,18): error C2065: 'p': undeclared identifier
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(33,11): error C3861: 'exists': identifier not found
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(35,8): error C2653: 'fs': is not a class or namespace name
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(35,25): error C2065: 'p': undeclared identifier
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(35,12): error C3861: 'is_directory': identifier not found
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,20): error C2653: 'fs': is not a class or namespace name
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,53): error C2065: 'p': undeclared identifier
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,24): error C3861: 'recursive_directory_iterator': identifier not found
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,52): error C2672: 'begin': no matching overloaded function found
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): error C2893: Failed to specialize function template 'unknown-type std::begin(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(2170): message : see declaration of 'std::begin'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): message : With the following template arguments:
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): message : '_Container=unknown-type'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): error C2784: 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\initializer_list(57): message : see declaration of 'std::begin'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,52): error C2672: 'end': no matching overloaded function found
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): error C2893: Failed to specialize function template 'unknown-type std::end(_Container &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(2180): message : see declaration of 'std::end'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): message : With the following template arguments:
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): message : '_Container=unknown-type'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): error C2784: 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': could not deduce template argument for 'std::initializer_list<_Elem>' from 'unknown-type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\initializer_list(63): message : see declaration of 'std::end'
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): error C3536: '<begin>$L0': cannot be used before it is initialized
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,1): error C3536: '<end>$L0': cannot be used before it is initialized
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(37,55): error C2100: illegal indirection
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(46,28): error C2065: 'p': undeclared identifier
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\BCFTask\TextFileOperation.cpp(107,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\Sample-Test1\test.cpp(12,5): error C2731: 'main': function cannot be overloaded
+C:\Users\szymi\Desktop\C++ Testy\BCFTask\Sample-Test1\test.cpp(12): message : see declaration of 'main'
